@@ -15,48 +15,7 @@ editor_options:
 
 1.  Hvordan målte dere dette? Her kan dere beskrive metoden dere brukte. Bruk "løpende tekst" og ikke punkter/lister.
 
-## qPCR
-
-#### Background
-
-Targeted amplification of cDNA using specific primers is a sensitive technique for the evaluation of gene-abundance.
-
-#### Materials
-
--   A real-time PCR machine (We use QuantStudio 5)
-
--   A qPCR reaction plate
-
--   Nuclease-free water and pipette tips
-
--   SYBR-green Master mix
-
-Real time PCR system for human identification (Quantstudio5, Waltham, MA USA)
-
-MicroAmp and EnduraPlate plastic consumables (Applied Biosystems, Waltham, MA USA)
-
-Analysed in QuantStudio design & analysis software (Applied Biosystems, Waltham, MA USA)
-
-
-#### Methods
-
-1.  Combine a master-mix
-
-    -   SYBR-green 2X master-mix: 5 μl
-
-    -   Primermix, Forward and Reverse 5 μM         each: 1 μl
-
-    -   H20: 2 μl
-
-2.  Load the plate with primer-specific master-mix
-
-3.  Add 2 μl cDNA sample.
-
-####    Optimization
-
-1.  The final volume of the reaction may be optimized, 10 μl is a good starting point
-
-2.  Primer concentrations might need further optimization
+qPCR analyse ble gjennomført i laben sammen med Kristian Lian. Kristian hadde på forhånd forberedt fortynnet cDNA prøver som vi skulle bruke til analyse. qPCR-reaksjoner ble gjennomført med fortynnet cDNA og en blandet masterblanding. Masterblandingen bestod av med SYBR-green 2X mastermix (5 μl), like deler primermix forward og reverse (1 μl) og 2 μl kjernefritt vann (H20). 2 μl med cDNA ble tilført mastermixen. Innholdet ble sentrifugert i 1 min på 1200rpm for å blande innholdet. Prøvene ble analysert i en sanntids PCR-system, og med QuantStudio programvare.
 
 # Resultater
 
