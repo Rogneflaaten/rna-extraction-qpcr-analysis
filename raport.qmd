@@ -4,36 +4,26 @@ format: html
 editor: source
 editor_options: 
   chunk_output_type: console
+bibliography: referanser.bib
+csl: apa.csl
 ---
 
 # Introduksjon
 
-1.  Hvorfor måler vi dette? Sett i sammenhengen av idrettsvitenskapelig forskning, hvilke spørsmål kan vi besvare ved å gjøre disse målingene?
-2.  Hvordan måler vi dette? Hva er prinsippet bak målingen som dere presenterer? Finnes det alternativer?
+Analyser av genuttrykk gjennom kvantitativ PCR i skjelettmuskulatur er rutine i treningsstudier [@kuang_overview_2018]. Hvordan forsøkene gjennomføres og tolkes har stor betydning for reliabiliteten og reproduserbarheten til dataene, og det synes å være stor variasjon i protokoller og dataanalyser mellom ulike laboratorium og forskningsmiljøer. qPCR-målinger i idrettsvitenskapelig forskning er interresant å undersøke ettersom man kan se trenings-induserte endringer i genuttrykk i skjelettmuskulatur.
 
-1.
 
-Analyser av genuttrykk gjennom kvantitativ PCR i skjelettmuskulatur er rutine i treningsstudier (Kuang et. al. 2018). Hvordan forsøkene gjennomføres og tolkes har stor betydning for reabiliteten og reproduserbarheten til dataene, og det synes å være stor variasjon i protokkeller og dataanalyser mellom ulike laberatoriumer og forskningsmiljøer. qPCR-målinger i idrettsvitenskapelig forskning er interresant å undersøke ettersom man kan se trenings-induserte endringer i genuttrykk i skjelettmuskulatur.
-
-2.
-
-Prinsippet bak qPCR-testing er å følge prosessen til DNA polymerase-drevet amplifikasjon av DNA (PCR) i sanntid. Under PCR benyttes et termostabilt DNA-polymerase enzym til å syntetisere nye DNA-tråder komplimentært til DNA-seksvensene man ønkser å undersøke. Enzymet blandes med DNA-templatet, fram- og tilbakestyrende primere og nukleotider (Kilde). Deretter følger 3 syklisk repeterte prosesser; deling av trådene (denaturering), primerbinding (annealing) og syntese av nye DNA-tråder (extending). Avslutningsvis vil sekvensen man har satt seg ut bli amplifisert til milliarder av kopier, også kalt PCR-amplikoner. 
-Alternative metoder qPCR-testing nortern blotting, in situ hybridization og tradisjonell PCR. Sammenlignet med tradisjonell PCR er qPCR i stand til å oppdage amplifikasjonen av PCR-amplikonet (sluttproduktet) på slutten av hver amplifikasjonssyklus (KILDE). Dette gjennom å bruke et "fluorescent dye system" og et "thermocycler with fluorescence-detection capability". Sammenlignet med nortern blotting og in situ hybridization er qPCR enkelt og raskt å gjennomføre, og samtidig mer sensetiv og spesifikk.
+Prinsippet bak qPCR-testing er å følge prosessen til DNA polymerase-drevet amplifikasjon av DNA (PCR) i sanntid. Under PCR benyttes et termostabilt DNA-polymerase enzym til å syntetisere nye DNA-tråder komplimentært til DNA-seksvensene man ønkser å undersøke. Enzymet blandes med DNA-templatet, primere og nukleotider [@kuang_overview_2018]. Deretter følger 3 syklisk repeterte prosesser; deling av trådene (denaturering), primerbinding (annealing) og syntese av nye DNA-tråder (extending). Avslutningsvis vil sekvensen man har satt seg ut bli amplifisert til milliarder av kopier, også kalt PCR-amplikoner. Alternative metoder til qPCR-testing er nortern blotting, in situ hybridization og tradisjonell PCR. Sammenlignet med tradisjonell PCR, er qPCR i stand til å oppdage amplifikasjonen av PCR-amplikonet (sluttproduktet) på slutten av hver amplifikasjonssyklus [@kuang_overview_2018]. Dette gjennom å bruke et "fluorescent dye system" og et "thermocycler with fluorescence-detection capability". Sammenlignet med nortern blotting og in situ hybridization er qPCR enkelt og raskt å gjennomføre, og samtidig mer sensitiv og spesifikk.
 
 
 # Metode
 
-1.  Hvordan målte dere dette? Her kan dere beskrive metoden dere brukte. Bruk "løpende tekst" og ikke punkter/lister.
-
-qPCR analyse ble gjennomført i laben sammen med Kristian Lian. Kristian hadde på forhånd forberedt fortynnet cDNA prøver som vi skulle bruke til analyse. qPCR-reaksjoner ble gjennomført med fortynnet cDNA og en blandet masterblanding. Masterblandingen bestod av med SYBR-green 2X mastermix (5 μl), like deler primermix forward og reverse (1 μl) og 2 μl kjernefritt vann (H20). 2 μl med cDNA ble tilført mastermixen. Innholdet ble sentrifugert i 1 min på 1200rpm for å blande innholdet. Prøvene ble analysert i en sanntids PCR-system, og med QuantStudio programvare. PCR-systemet og QuantStudio analyserer antall sykluser som må til for at det fluoreserende signalet når cyclisk terskel.
+qPCR analyse ble gjennomført i laben sammen med Kristian Lian. Kristian hadde på forhånd forberedt fortynnet cDNA prøver som vi skulle bruke til analyse. qPCR-reaksjoner ble gjennomført med fortynnet cDNA og en blandet masterblanding. Masterblandingen bestod av med SYBR-green 2X mastermix (5 μl), like deler primermix forward og reverse (1 μl) og 2 μl kjernefritt vann (H20). 2 μl med cDNA ble tilført mastermixen. Innholdet ble sentrifugert i 1 min på 1200rpm for å blande innholdet. Prøvene ble analysert i en sanntids PCR-system og med QuantStudio programvare. PCR-systemet og QuantStudio analyserer antall sykluser som må til for at det fluoreserende signalet når cyclisk terskel. Semi-kvantitative målinger ble gjort med 47s rRNA F1R1 som referansegen [@wackerhage_molecular_2014].
 
 
 # Resultater
 
-1.  Hva sier resultatene?
-2.  Hvordan kan resultatene tolkes (eller ikke)? Hva gikk feil om noe?
-
-@tbl-res viser den sykliske terskelen for hvert målgen per prøve. Hvert tall viser antall sykluser før den sykliske terskelen ble oppnådd. Et lavere tall indikerer et større genuttrykk. Til tross for at vi ikke testet for MyCH2X genutrykk fikk vi en observasjon for MyCH2X på en sample. Dette kan trolig skyldes feil merkning i dataprogrammet eller i RT-qPCR maskinen.
+@tbl-res viser den sykliske terskelen for hvert målgen per prøve. Hvert tall viser antall sykluser før den sykliske terskelen ble oppnådd. Et lavere tall indikerer et større genuttrykk. Til tross for at vi ikke testet for MyCH2X genutrykk fikk vi en observasjon for MyCH2X på en prøve. Det er vanskelig å forklare hva årsaken til feil-observasjonen er, men vi mistenker at det skyldes feil-merkning under qPCR-syklusene. 
 
 ```{r}
 #| echo: false
