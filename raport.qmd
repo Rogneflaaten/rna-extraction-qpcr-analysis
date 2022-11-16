@@ -60,6 +60,8 @@ Targeted amplification of cDNA using specific primers is a sensitive technique f
 #| echo: false
 #| warning: false
 #| error: false
+#| label: "fig-res"
+#| fig-cap: "qPCR Results"
 
 library(readxl)
 library(tidyverse)
