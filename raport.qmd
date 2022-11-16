@@ -56,6 +56,8 @@ Targeted amplification of cDNA using specific primers is a sensitive technique f
 1.  Hva sier resultatene?
 2.  Hvordan kan resultatene tolkes (eller ikke)? Hva gikk feil om noe?
 
+@fig-res viser cycle threshold for hvert target gene per sample. Hvert tall viser antall sykluser før cycle threshold ble oppnådd. Et lavere tall indikerer et større genuttrykk. Til tross for at vi ikke testet for MyCH2X genutrykk fikk vi en observasjon for MyCH2X på en sample. Dette kan trolig skyldes feil merkning i dataprogrammet eller i RT-qPCR maskinen.
+
 ```{r}
 #| echo: false
 #| warning: false
@@ -78,6 +80,4 @@ qpcr_data %>%
   fmt_number(columns = `MHC1 F1R1`:`47s rRNA F1R1`, decimals = 2) %>% 
   cols_label(sample = "Sample Number")
 ```
-
-feilen kan ha vært i dataprogrammet eller maskinen, det kan ha blitt merket feil. qoute fra Kristian
 
