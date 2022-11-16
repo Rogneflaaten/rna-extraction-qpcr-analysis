@@ -32,14 +32,14 @@ qPCR analyse ble gjennomført i laben sammen med Kristian Lian. Kristian hadde p
 1.  Hva sier resultatene?
 2.  Hvordan kan resultatene tolkes (eller ikke)? Hva gikk feil om noe?
 
-@fig-res viser cycle threshold for hvert target gene per sample. Hvert tall viser antall sykluser før cycle threshold ble oppnådd. Et lavere tall indikerer et større genuttrykk. Til tross for at vi ikke testet for MyCH2X genutrykk fikk vi en observasjon for MyCH2X på en sample. Dette kan trolig skyldes feil merkning i dataprogrammet eller i RT-qPCR maskinen.
+@tbl-res viser cycle threshold for hvert target gene per sample. Hvert tall viser antall sykluser før cycle threshold ble oppnådd. Et lavere tall indikerer et større genuttrykk. Til tross for at vi ikke testet for MyCH2X genutrykk fikk vi en observasjon for MyCH2X på en sample. Dette kan trolig skyldes feil merkning i dataprogrammet eller i RT-qPCR maskinen.
 
 ```{r}
 #| echo: false
 #| warning: false
 #| error: false
-#| label: "fig-res"
-#| fig-cap: "qPCR Results"
+#| label: "tbl-res"
+#| tbl-cap: "qPCR Results"
 
 library(readxl)
 library(tidyverse)
