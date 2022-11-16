@@ -31,6 +31,13 @@ Targeted amplification of cDNA using specific primers is a sensitive technique f
 
 -   SYBR-green Master mix
 
+Real time PCR system for human identification (Quantstudio5, Waltham, MA USA)
+
+MicroAmp and EnduraPlate plastic consumables (Applied Biosystems, Waltham, MA USA)
+
+Analysed in QuantStudio design & analysis software (Applied Biosystems, Waltham, MA USA)
+
+
 #### Methods
 
 1.  Combine a master-mix
