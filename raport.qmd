@@ -3,3 +3,13 @@ title: "Extraction of RNA and analysis of qPCR experiments"
 format: html
 ---
 
+# Introduksjon
+ 1. Hvorfor måler vi dette? Sett i sammenhengen av idrettsvitenskapelig forskning, hvilke spørsmål kan vi besvare ved å gjøre disse målingene?
+ 2. Hvordan måler vi dette? Hva er prinsippet bak målingen som dere presenterer? Finnes det alternativer?
+
+# Metode
+1. Hvordan målte dere dette? Her kan dere beskrive metoden dere brukte. Bruk "løpende tekst" og ikke punkter/lister.
+
+# Resultater
+1. Hva sier resultatene?
+2. Hvordan kan resultatene tolkes (eller ikke)? Hva gikk feil om noe?
