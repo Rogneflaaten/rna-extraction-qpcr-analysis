@@ -4,12 +4,51 @@ format: html
 ---
 
 # Introduksjon
- 1. Hvorfor måler vi dette? Sett i sammenhengen av idrettsvitenskapelig forskning, hvilke spørsmål kan vi besvare ved å gjøre disse målingene?
- 2. Hvordan måler vi dette? Hva er prinsippet bak målingen som dere presenterer? Finnes det alternativer?
+
+1.  Hvorfor måler vi dette? Sett i sammenhengen av idrettsvitenskapelig forskning, hvilke spørsmål kan vi besvare ved å gjøre disse målingene?
+2.  Hvordan måler vi dette? Hva er prinsippet bak målingen som dere presenterer? Finnes det alternativer?
 
 # Metode
-1. Hvordan målte dere dette? Her kan dere beskrive metoden dere brukte. Bruk "løpende tekst" og ikke punkter/lister.
+
+1.  Hvordan målte dere dette? Her kan dere beskrive metoden dere brukte. Bruk "løpende tekst" og ikke punkter/lister.
+
+## qPCR
+
+#### Background
+
+Targeted amplification of cDNA using specific primers is a sensitive technique for the evaluation of gene-abundance.
+
+#### Materials
+
+-   A real-time PCR machine (We use QuantStudio 5)
+
+-   A qPCR reaction plate
+
+-   Nuclease-free water and pipette tips
+
+-   SYBR-green Master mix
+
+#### Methods
+
+1.  Combine a master-mix
+
+    -   SYBR-green 2X master-mix: 5 μl
+
+    -   Primermix, Forward and Reverse 5 μM         each: 1 μl
+
+    -   H20: 2 μl
+
+2.  Load the plate with primer-specific master-mix
+
+3.  Add 2 μl cDNA sample.
+
+####    Optimization
+
+1.  The final volume of the reaction may be optimized, 10 μl is a good starting point
+
+2.  Primer concentrations might need further optimization
 
 # Resultater
-1. Hva sier resultatene?
-2. Hvordan kan resultatene tolkes (eller ikke)? Hva gikk feil om noe?
+
+1.  Hva sier resultatene?
+2.  Hvordan kan resultatene tolkes (eller ikke)? Hva gikk feil om noe?
