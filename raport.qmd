@@ -1,6 +1,9 @@
 ---
 title: "Extraction of RNA and analysis of qPCR experiments"
 format: html
+editor: source
+editor_options: 
+  chunk_output_type: console
 ---
 
 # Introduksjon
@@ -52,3 +55,27 @@ Targeted amplification of cDNA using specific primers is a sensitive technique f
 
 1.  Hva sier resultatene?
 2.  Hvordan kan resultatene tolkes (eller ikke)? Hva gikk feil om noe?
+
+```{r}
+#| echo: false
+#| warning: false
+#| error: false
+
+library(readxl)
+library(tidyverse)
+library(gt)
+
+qpcr_data <- read_excel("data/qpcr_data.xlsx", 
+    sheet = "Results", range = "A20:J52") %>% 
+  select(sample = `Sample Name`,  gene = `Target Name`, value = CT) %>% 
+  pivot_wider(names_from = gene,
+              values_from = value)
+
+qpcr_data %>% 
+  gt() %>% 
+  fmt_number(columns = `MHC1 F1R1`:`47s rRNA F1R1`, decimals = 2) %>% 
+  cols_label(sample = "Sample Number")
+```
+
+feilen kan ha vært i dataprogrammet eller maskinen, det kan ha blitt merket feil. qoute fra Kristian
+
