@@ -25,7 +25,8 @@ Alternative metoder qPCR-testing nortern blotting, in situ hybridization og trad
 
 1.  Hvordan målte dere dette? Her kan dere beskrive metoden dere brukte. Bruk "løpende tekst" og ikke punkter/lister.
 
-qPCR analyse ble gjennomført i laben sammen med Kristian Lian. Kristian hadde på forhånd forberedt fortynnet cDNA prøver som vi skulle bruke til analyse. qPCR-reaksjoner ble gjennomført med fortynnet cDNA og en blandet masterblanding. Masterblandingen bestod av med SYBR-green 2X mastermix (5 μl), like deler primermix forward og reverse (1 μl) og 2 μl kjernefritt vann (H20). 2 μl med cDNA ble tilført mastermixen. Innholdet ble sentrifugert i 1 min på 1200rpm for å blande innholdet. Prøvene ble analysert i en sanntids PCR-system, og med QuantStudio programvare.
+qPCR analyse ble gjennomført i laben sammen med Kristian Lian. Kristian hadde på forhånd forberedt fortynnet cDNA prøver som vi skulle bruke til analyse. qPCR-reaksjoner ble gjennomført med fortynnet cDNA og en blandet masterblanding. Masterblandingen bestod av med SYBR-green 2X mastermix (5 μl), like deler primermix forward og reverse (1 μl) og 2 μl kjernefritt vann (H20). 2 μl med cDNA ble tilført mastermixen. Innholdet ble sentrifugert i 1 min på 1200rpm for å blande innholdet. Prøvene ble analysert i en sanntids PCR-system, og med QuantStudio programvare. PCR-systemet og QuantStudio analyserer antall sykluser som må til for at det fluoreserende signalet når cyclisk terskel.
+
 
 # Resultater
 
