@@ -11,6 +11,17 @@ editor_options:
 1.  Hvorfor måler vi dette? Sett i sammenhengen av idrettsvitenskapelig forskning, hvilke spørsmål kan vi besvare ved å gjøre disse målingene?
 2.  Hvordan måler vi dette? Hva er prinsippet bak målingen som dere presenterer? Finnes det alternativer?
 
+1.
+
+Analyser av genuttrykk gjennom kvantitativ PCR i skjelettmuskulatur er rutine i treningsstudier (Kuang et. al. 2018). Hvordan forsøkene gjennomføres og tolkes har stor betydning for reabiliteten og reproduserbarheten til dataene, og det synes å være stor variasjon i protokkeller og dataanalyser mellom ulike laberatoriumer og forskningsmiljøer. qPCR-målinger i idrettsvitenskapelig forskning er interresant å undersøke ettersom man kan se trenings-induserte endringer i genuttrykk i skjelettmuskulatur.
+
+
+
+2.
+Prinsippet bak qPCR-testing er å følge prosessen til DNA polymerase-drevet amplifikasjon av DNA (PCR) i sanntid. Under PCR benyttes et termostabilt DNA-polymerase enzym til å syntetisere nye DNA-tråder komplimentært til DNA-seksvensene man ønkser å undersøke. Enzymet blandes med DNA-templatet, fram- og tilbakestyrende primere og nukleotider (Kilde). Deretter følger 3 syklisk repeterte prosesser; deling av trådene (denaturering), primerbinding (annealing) og syntese av nye DNA-tråder (extending). Avslutningsvis vil sekvensen man har satt seg ut bli amplifisert til milliarder av kopier, også kalt PCR-amplikoner. 
+Alternative metoder qPCR-testing nortern blotting, in situ hybridization og tradisjonell PCR. Sammenlignet med tradisjonell PCR er qPCR i stand til å oppdage amplifikasjonen av PCR-amplikonet (sluttproduktet) på slutten av hver amplifikasjonssyklus (KILDE). Dette gjennom å bruke et "fluorescent dye system" og et "thermocycler with fluorescence-detection capability". Sammenlignet med nortern blotting og in situ hybridization er qPCR enkelt og raskt å gjennomføre, og samtidig mer sensetiv og spesifikk.
+
+
 # Metode
 
 1.  Hvordan målte dere dette? Her kan dere beskrive metoden dere brukte. Bruk "løpende tekst" og ikke punkter/lister.
